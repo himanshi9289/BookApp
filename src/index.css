@@ -6,31 +6,18 @@ input[type="text"],input[type="password"],
 input[type="email"],input[type="number"],
 input[type="tel"],
 textarea{  
-    width: 100px;
-    border-width: 1px;
-    margin-top: 0.25rem/* 4px */;
-    margin-bottom: 0.25rem/* 4px */;
-    padding-top: 0.5rem/* 8px */;
-    padding-bottom: 0.5rem/* 8px */;
-    padding-left: 0.75rem/* 12px */;
-    padding-right: 0.75rem/* 12px */;
-    border-radius: 1rem/* 16px */;
-    /* @apply w-full border my-1 py-2 px-3 rounded-2xl; */
+    @apply w-full border my-1 py-2 px-3 rounded-2xl;
 }
 textarea{
     height: 140px;
 }
 button{
-    --tw-bg-opacity: 1;
-    background-color: rgb(209 213 219 / var(--tw-bg-opacity));
-    /* @apply bg-gray-300; */
+    @apply bg-gray-300;
+    @apply text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2;
 }
 button.primary{
     background-color: #F5385D;
-    padding: 0.5rem/* 8px */;
-    width: 100%;
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
-    border-radius: 1rem/* 16px */;
-    /* @apply bg-primary p-2 w-full text-white rounded-2xl; */
+    @apply text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2;
+    @apply w-full text-white rounded-2xl;
+
 }
