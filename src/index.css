@@ -5,7 +5,7 @@
 input[type="text"],input[type="password"],
 input[type="email"],input[type="number"],
 input[type="tel"],
-textarea{
+textarea{  
     width: 100px;
     border-width: 1px;
     margin-top: 0.25rem/* 4px */;
